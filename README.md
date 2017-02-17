@@ -10,3 +10,5 @@
 5).干货集中营：http://gank.io/
 
 6).A5安卓应用源码：http://down.admin5.com/android/
+
+7).Android各种动画自定义View和动画：https://github.com/ddwhan0123/Useful-Open-Source-Android
