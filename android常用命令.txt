@@ -1,1 +1,1 @@
-1.输出所有已经安装的应用 :  adb shell pm list packages -f
+1.输出所有已经安装的应用 :  adb shell pm list packages -f | grep "mingcheng"
