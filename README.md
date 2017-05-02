@@ -18,3 +18,5 @@
 9).Android 开源项目分类汇总：https://github.com/Trinea/android-open-project#%E7%AC%AC%E4%BA%8C%E9%83%A8%E5%88%86-%E5%B7%A5%E5%85%B7%E5%BA%93
 
 10).https://www.codota.com 如果你不知道一个Android的类怎么用，可以在这上面搜索示例代码。
+
+11).各种textview效果  http://www.jianshu.com/p/4d20c96eb16f
