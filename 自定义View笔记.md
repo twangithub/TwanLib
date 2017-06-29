@@ -1,4 +1,5 @@
 //onMeasure模板
+```
 protected void onMeasure(int widthMeasureSpec,int heightMeasureSpec){
     super.onMeasure(widhtMeasureSpec,heightMeasureSpec);
     
@@ -24,5 +25,5 @@ protected void onMeasure(int widthMeasureSpec,int heightMeasureSpec){
 
     setMeasuredDimension(resultWidth,resultHeight);
 }
-
+```
 
