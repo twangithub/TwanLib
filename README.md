@@ -1,5 +1,5 @@
 # Twan-AndroidLib
-1).酷炫的Android开源特效库： http://www.jianshu.com/p/a0851180a69c
+- 酷炫的Android开源特效库： http://www.jianshu.com/p/a0851180a69c
 
 2).Android开源项目及库： https://github.com/Tim9Liu9/TimLiu-Android
 
