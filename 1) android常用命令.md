@@ -4,6 +4,7 @@
 
 
 ## 刷机常用
+### adb命令
 - 通过adb推送本地文件到手机sdcard : adb push 本地文件路径  /sdcard/
 
 - 正常重启 adb reboot
@@ -12,18 +13,26 @@
 
 - 重启到 recovery (恢复模式):    adb reboot recovery
 
-- fastboot 命令不多(以下为刷机常用). <br>
-     i) 通过fastboot刷入系统镜像经常失败( recovery的sideload刷机也经常失败),所以如果没有recovery,则进入fastboot后,先装recovery,
-        强烈建议使用twrp的rec,其他的都不好用,一路踩坑经验.<br>
-        
-     i) 重启bootloader : fastboot reboot-bootloader<br>
-     i) 如果fastboot都无法进入,则成砖<br>
-     
-  ### fastboot 刷入recovery步骤: 
-  > 1. 擦除(相当于recovery下的wipe): fastboot -w 
-  > 2. 列出设备: fastboot devices 
-  > 3. 刷入recovery: fastboot flash recovery (recovery.img-即本地路径) . 
-  > 4. 重新启动,正常开机 : fastboot reboot 
-  > 5. 每个型号的手机不同,按不同的键进入recovery 
+### fastboot
+> fastboot 命令不多(以下为刷机常用):
+1. 通过fastboot刷入系统镜像经常失败( recovery的sideload刷机也经常失败),所以如果没有recovery,则进入fastboot后,先装recovery,强烈建议使用twrp的rec,其他的都不好用,一路踩坑经验.
+2. 重启bootloader : fastboot reboot-bootloader
+3. 如果fastboot都无法进入,则成砖
+     
+> fastboot 刷入recovery步骤: 
+1. 擦除(相当于recovery下的wipe): fastboot -w 
+2. 列出设备: fastboot devices 
+3. 刷入recovery: fastboot flash recovery (recovery.img-即本地路径) . 
+4. 重新启动,正常开机 : fastboot reboot 
+5. 每个型号的手机不同,按不同的键进入recovery 
  
-  
+ ## git常用 
+ > 提交步骤:
+ 1. 打开 Gitbash
+ 2. 使用 cd 命令用于切换到对应仓库的目录，cd .. 用于切换到上级目录，ls 用于查看当前目录下面的文件/夹
+ 3. 当修改了一段代码后，使用 git status 查看当前改动
+ 4. 如果需要把所有改动提交上去，使用 git add . 提交到缓冲区（此时文件并没有提交到远程仓库）
+ 5. 填写提交说明，使用 git commit -m '此处填写修改的内容' 命令
+ 6. 使用 git pull origin master 获取远程仓库master分支的最新改动。（如果远程仓库有更新，没有执行此步骤，无法进行下一步）
+ 7. 使用 git push origin master 提交改动到远程仓库
+ 8. github 的 Demo 默认使用 gh-pages 分支，Demo 地址是：http://用户名.github.io/仓库名/ 可以使用 git checkout gh-pages 切换到该分支(默认没有这     个分支，需要使用git checkout -b gh-pages创建该分支)。
