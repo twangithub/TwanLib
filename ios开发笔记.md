@@ -20,3 +20,5 @@ mac osx的下载地址,安装教程: [https://techsviewer.com/how-to-install-mac
 
 - 免费的真机调试账号，Provisioning Profile期限只有十天左右（付费有一年的时间），超过这个期限，打开App就是闪退。
 解决办法：删掉Provisioning Profile，重新配置一次。如果勾选了Automatically manage signing,Xcode会自动更新证书和配置文件，重新安装即可！
+
+- 真机调试时,请务必保持xcode sdk和 iPhone sdk 版本一致, xcode的错误提示太难懂.
