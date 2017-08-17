@@ -17,6 +17,7 @@ mac osx的下载地址,安装教程: [https://techsviewer.com/how-to-install-mac
 ***设置 -> 通用 -> 描述文件与设备管理 -> 开发者应用 -> 信任“开发者账号”***
 
 - 如果你的项目使用了通知功能,请一定关掉: ***真机测试前必须关闭App的推送特性(Target->Capabilities->Push Notifications)。***
+还有一些功能也不能用.[参考apple官方地址](https://developer.apple.com/support/app-capabilities/)
 
 - 免费的真机调试账号，Provisioning Profile期限只有十天左右（付费有一年的时间），超过这个期限，打开App就是闪退。
 解决办法：删掉Provisioning Profile，重新配置一次。如果勾选了Automatically manage signing,Xcode会自动更新证书和配置文件，重新安装即可！
