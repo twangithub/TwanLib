@@ -12,18 +12,18 @@
 
 - 重启到 recovery (恢复模式):    adb reboot recovery
 
-- fastboot 命令不多(以下为刷机常用).  
+- fastboot 命令不多(以下为刷机常用). <br>
      i) 通过fastboot刷入系统镜像经常失败( recovery的sideload刷机也经常失败),所以如果没有recovery,则进入fastboot后,先装recovery,
-        强烈建议使用twrp的rec,其他的都不好用,一路踩坑经验.
+        强烈建议使用twrp的rec,其他的都不好用,一路踩坑经验.<br>
         
-     i) 重启bootloader : fastboot reboot-bootloader
-     i) 如果fastboot都无法进入,则成砖
+     i) 重启bootloader : fastboot reboot-bootloader<br>
+     i) 如果fastboot都无法进入,则成砖<br>
      
-  fastboot 刷入recovery步骤:
-  1) 擦除(相当于recovery下的wipe): fastboot -w
-  2) 列出设备: fastboot devices
-  3) 刷入recovery: fastboot flash recovery (recovery.img-即本地路径) .
-  4) 重新启动,正常开机 : fastboot reboot
-  5) 每个型号的手机不同,按不同的键进入recovery
+  fastboot 刷入recovery步骤:<br>
+  1) 擦除(相当于recovery下的wipe): fastboot -w<br>
+  2) 列出设备: fastboot devices<br>
+  3) 刷入recovery: fastboot flash recovery (recovery.img-即本地路径) .<br>
+  4) 重新启动,正常开机 : fastboot reboot<br>
+  5) 每个型号的手机不同,按不同的键进入recovery<br>
  
   
