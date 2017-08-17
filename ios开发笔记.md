@@ -16,7 +16,7 @@ mac osx的下载地址,安装教程: [https://techsviewer.com/how-to-install-mac
 - 第一次真机运行项目时，Xcode会弹出一个框（Could not launch “YourAppName”），手机没有信任该开发者的应用，在信任该开发者之前将不会运行。需要在手机里进行设置：
 ***设置 -> 通用 -> 描述文件与设备管理 -> 开发者应用 -> 信任“开发者账号”***
 
-- 如果你的项目使用了通知功能,请一定关掉: ***真机测试前必须关闭App的推送特性(Target->Capabilities->Push Notifications)。***
+- 如果你的项目使用了通知功能,请一定关掉(先把Automatically manage signing 的勾去掉才会出现推送等特性.因为自己的appleid没交费不会显示这些特性): ***真机测试前必须关闭App的推送特性(Target->Capabilities->Push Notifications)。***
 还有一些功能也不能用.[参考apple官方地址](https://developer.apple.com/support/app-capabilities/)
 
 - 免费的真机调试账号，Provisioning Profile期限只有十天左右（付费有一年的时间），超过这个期限，打开App就是闪退。
