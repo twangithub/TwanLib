@@ -19,11 +19,11 @@
      i) 重启bootloader : fastboot reboot-bootloader<br>
      i) 如果fastboot都无法进入,则成砖<br>
      
-  fastboot 刷入recovery步骤:<br>
-  1) 擦除(相当于recovery下的wipe): fastboot -w<br>
-  2) 列出设备: fastboot devices<br>
-  3) 刷入recovery: fastboot flash recovery (recovery.img-即本地路径) .<br>
-  4) 重新启动,正常开机 : fastboot reboot<br>
-  5) 每个型号的手机不同,按不同的键进入recovery<br>
+  >fastboot 刷入recovery步骤:<br>
+  >1.) 擦除(相当于recovery下的wipe): fastboot -w<br>
+  >2.) 列出设备: fastboot devices<br>
+  >3.) 刷入recovery: fastboot flash recovery (recovery.img-即本地路径) .<br>
+  >4.) 重新启动,正常开机 : fastboot reboot<br>
+  >5.) 每个型号的手机不同,按不同的键进入recovery<br>
  
   
