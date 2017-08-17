@@ -24,7 +24,7 @@
 2. 列出设备: fastboot devices 
 3. 刷入recovery: fastboot flash recovery (recovery.img-即本地路径) . 
 4. 重新启动,正常开机 : fastboot reboot 
-5. 每个型号的手机不同,按不同的键进入recovery 
+5. 每个型号的手机不同,按不同的键进入recovery (如果进入了rec,表示该rec不能用,换一个合适的)
  
  ## git常用 
  > 提交步骤:
