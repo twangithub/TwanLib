@@ -1,6 +1,6 @@
 ## Twan's 所思所得
 
-所有文件以markdown形式记录
+所有文件以markdown形式记录(记录重心将转移到github,个人博客,简书等会减少书写)
 
 > [android 刷机教程,包含常用adb ,fastboot ,git 命令](https://github.com/twangithub/TwanLib/blob/master/1\)%20android%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.md)
 
