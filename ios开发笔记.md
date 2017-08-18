@@ -23,3 +23,7 @@ mac osx的下载地址,安装教程: [https://techsviewer.com/how-to-install-mac
 解决办法：删掉Provisioning Profile，重新配置一次。如果勾选了Automatically manage signing,Xcode会自动更新证书和配置文件，重新安装即可！
 
 - 真机调试时,请务必保持xcode sdk和 iPhone sdk 版本一致, xcode的错误提示太难懂.
+
+### IOS编程入门
+
+- [swift布局极速入门](http://www.maiziedu.com/course/17-295/)
