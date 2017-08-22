@@ -29,7 +29,15 @@
 > recovery装好后,就可以利用adb命令. 在recovery的环境下直接传输文件
 - 通过adb推送本地文件到手机sdcard : adb push 本地文件路径  /sdcard/
 
-
+ ## 端口占用问题
+ 
+ > 以adb的5037端口为例:
+ 1. C:\Users\Administrator>netstat -aon|findstr 5037 
+    找到一行有listening 的字样 .如: TCP 127.0.0.1:5037 0.0.0.0:0 LISTENING 996
+    
+ 2. 通过PID查看所有进程 :  C:\Users\Administrator>tasklist /fi "pid eq 996"
+ 
+ 3. 杀死占用端口的进程 :   C:\Users\Administrator>taskkill /pid 996 /f
 
  ## git常用 
  > 提交步骤:
