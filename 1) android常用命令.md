@@ -4,8 +4,7 @@
 
 
 ## 刷机常用
-### adb命令
-- 通过adb推送本地文件到手机sdcard : adb push 本地文件路径  /sdcard/
+### 重启命令
 
 - 正常重启 adb reboot
 
@@ -25,7 +24,13 @@
 3. 刷入recovery: fastboot flash recovery (recovery.img-即本地路径) . 
 4. 重新启动,正常开机 : fastboot reboot 
 5. 每个型号的手机不同,按不同的键进入recovery (如果进不了rec,表示该rec不能用,换一个合适的)
- 
+
+### recovery
+> recovery装好后,就可以利用adb命令. 在recovery的环境下直接传输文件
+- 通过adb推送本地文件到手机sdcard : adb push 本地文件路径  /sdcard/
+
+
+
  ## git常用 
  > 提交步骤:
  1. 打开 Gitbash
