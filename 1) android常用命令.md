@@ -33,7 +33,7 @@
  
  > 以adb的5037端口为例:
  1. C:\Users\Administrator>netstat -aon|findstr 5037 
-    找到一行有listening 的字样 .如: TCP 127.0.0.1:5037 0.0.0.0:0 LISTENING 996
+    <br>找到一行有listening 的字样 .如: TCP 127.0.0.1:5037 0.0.0.0:0 LISTENING 996
     
  2. 通过PID查看所有进程 :  C:\Users\Administrator>tasklist /fi "pid eq 996"
  
