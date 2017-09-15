@@ -1,4 +1,12 @@
+> adb shell 命令的官方网站
+  https://developer.android.com/studio/command-line/shell.html#othershellcommands
+
 - 输出所有已经安装的应用 :  adb shell pm list packages -f [ | grep "mingcheng" ]
+- 列出除了系统应用的第三方应用包名 :  adb shell pm list packages -3
+- 列出系统应用的所有包名 :  adb shell pm list packages -s
+- 查看设备型号 :  adb shell getprop ro.product.model  (如 xt1085)
+- 手机截图 :  adb shell screencap /sdcard/screen.png
+- 手机录像 :  adb shell screenrecord /sdcard/demo.mp4
 
 - 如何只克隆git仓库中的一个分支？ : git clone -b <branch> <remote_repo>   例如： git clone -b 指定的分支名字 git地址
 
