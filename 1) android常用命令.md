@@ -10,7 +10,9 @@
 - 手机截图 :  adb shell screencap /sdcard/screen.png
 - 手机录像 :  adb shell screenrecord /sdcard/demo.mp4
 - 当前activity的包名和activity名称 :  dumpsys activity top
+- 关机命令 :  adb shell reboot -p
 
+<BR>
 - 如何只克隆git仓库中的一个分支？ : git clone -b <branch> <remote_repo>   例如： git clone -b 指定的分支名字 git地址
 
 
