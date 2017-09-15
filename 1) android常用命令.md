@@ -49,7 +49,7 @@
  
  3. 杀死占用端口的进程 :   C:\Users\Administrator>taskkill /pid 996 /f
 
- ## git常用 
+ ## 4.git常用 
  > 提交步骤:
  1. 打开 Gitbash
  2. 使用 cd 命令用于切换到对应仓库的目录，cd .. 用于切换到上级目录，ls 用于查看当前目录下面的文件/夹
