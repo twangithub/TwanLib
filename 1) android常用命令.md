@@ -1,4 +1,4 @@
-## 常用命令
+## 1.常用命令
 > adb shell 命令的官方网站
   https://developer.android.com/studio/command-line/shell.html#othershellcommands
 
@@ -13,7 +13,7 @@
 - 如何只克隆git仓库中的一个分支？ : git clone -b <branch> <remote_repo>   例如： git clone -b 指定的分支名字 git地址
 
 
-## 刷机常用
+## 2.刷机常用
 ### 重启命令
 
 - 正常重启 adb reboot
@@ -39,7 +39,7 @@
 > recovery装好后,就可以利用adb命令. 在recovery的环境下直接传输文件
 - 通过adb推送本地文件到手机sdcard : adb push 本地文件路径  /sdcard/
 
- ## 端口占用问题
+ ## 3.端口占用问题
  
  > 以adb的5037端口为例:
  1. C:\Users\Administrator>netstat -aon|findstr 5037 
