@@ -41,7 +41,7 @@
 
 > fastboot 危险命令(禁用):
 1. !!! fastboot flash bootloader bootloader.img  该命令意思是重新输入bootloader分区,请务必注意, 如果你刷入了一个不匹配的bootloader.img, 那么你的手机100%成砖,只能换主板了.别无他法 !!!
-2. fastboot erase bootloader 该命令意思是擦除BootLoader分区.一旦执行,宣告手机成砖.
+2. fastboot erase bootloader (自毁命令)该命令意思是擦除BootLoader分区.一旦执行,宣告手机成砖.
 
 ### recovery
 > recovery装好后,就可以利用adb命令. 在recovery的环境下直接传输文件
