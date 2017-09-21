@@ -39,6 +39,10 @@
 4. 重新启动,正常开机 : fastboot reboot 
 5. 每个型号的手机不同,按不同的键进入recovery (如果进不了rec,表示该rec不能用,换一个合适的)
 
+> fastboot 危险命令(禁用):
+1. !!! fastboot flash bootloader bootloader.img  该命令意思是重新输入bootloader分区,请务必注意, 如果你刷入了一个不匹配的bootloader.img, 那么你的手机100%成砖,只能换主板了.别无他法 !!!
+2. fastboot erase bootloader 该命令意思是擦除BootLoader分区.一旦执行,宣告手机成砖.
+
 ### recovery
 > recovery装好后,就可以利用adb命令. 在recovery的环境下直接传输文件
 - 通过adb推送本地文件到手机sdcard : adb push 本地文件路径  /sdcard/
