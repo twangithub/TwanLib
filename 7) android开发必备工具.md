@@ -1,6 +1,10 @@
 - 当前Activity     -   用于获取应用包名及当前显示的activity
 - 开发助手          -   用于快速获取本机信息以及界面调试信息
 - F-Droid          -   android应用市场,该市场里的大部分app都有在github开源
+- apkpure          -   Android应用市场,该市场可以下载play商店里的应用, apkpure.com
 - Termux           -   android终端
 - MyAndroidTools   -   可以对各个app的服务,活动,广播,进程,日志,数据库等进行分析
 - LBE加速          -   常用来卸载顽固应用
+- ML Manager       -   提取系统里的apk,可以看到包名
+- vysor            -   在桌面上控制手机的一切
+- Native Libs Monitor -  so库分析
