@@ -22,7 +22,7 @@
 
 > 2.进入adb shell   执行adb shell
 
-> 3.执行su   执行su
+> 3.获取su   执行su
 
 > 4.查看system物理路径,以及是否可读   执行mount | grep /system
 
