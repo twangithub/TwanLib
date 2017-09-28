@@ -3,8 +3,8 @@
   https://developer.android.com/studio/command-line/shell.html#othershellcommands
 
 - 输出所有已经安装的应用 :  adb shell pm list packages -f [ | grep "mingcheng" ]
-  <BR>如果提示grep无法使用, 将grep 用 find 或者 findstr替换
-  <BR>grep命令只有先执行adb shell , 才能使用 grep
+  <BR>※如果提示grep无法使用, 将grep 用 find 或者 findstr替换
+  <BR>※grep命令只有先执行adb shell , 才能使用 grep
 - 列出除了系统应用的第三方应用包名 :  adb shell pm list packages -3
 - 列出系统应用的所有包名 :  adb shell pm list packages -s
 - 查看设备型号 :  adb shell getprop ro.product.model  (如 xt1085)
