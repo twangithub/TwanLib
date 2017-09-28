@@ -28,9 +28,9 @@
 
 > 5.挂载system为可读写   执行mount -o remount,rw [路径] /system
 
-> 5.删除目录及文件   执行rm -rf 目录名称
+> 6.删除目录及文件   执行rm -rf 目录名称
 
-> 6.挂载system为只读   执行mount -o remount,ro [路径] /system(如果这一步无法实现,直接重启系统,会自动恢复RO只读)
+> 7.挂载system为只读   执行mount -o remount,ro [路径] /system(如果这一步无法实现,直接重启系统,会自动恢复RO只读)
 
 
 
