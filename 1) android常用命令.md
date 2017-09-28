@@ -16,6 +16,17 @@
 
 #### git获取分支:
 如何只克隆git仓库中的一个分支？ : git clone -b <branch> <remote_repo>   例如： git clone -b 指定的分支名字 git地址
+  
+#### 有没有我删不掉的流氓应用, 没有!!!, 终极杀器,深入Linux:
+> 1.在cmd中获取root权限    执行adb root
+> 2.进入adb shell   执行adb shell
+> 3.执行su   执行su
+> 4.查看system物理路径,以及是否可读   执行mount | grep /system
+> 5.挂载system为可读写   执行mount -o remount,rw [路径] /system
+> 5.删除目录及文件   执行rm -rf 目录名称
+> 6.挂载system为只读   执行mount -o remount,ro [路径] /system(如果这一步无法实现,直接重启系统,会自动恢复RO只读)
+
+
 
 
 ## 2.刷机常用
