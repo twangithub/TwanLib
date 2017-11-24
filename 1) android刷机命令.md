@@ -12,7 +12,9 @@
 - 手机录像 :  adb shell screenrecord /sdcard/demo.mp4
 - 当前activity的包名和activity名称 :  dumpsys activity top
 - 关机命令 :  adb shell reboot -p
-  
+- 查看应用的包信息 : dumpsys package 包名
+    
+    
 #### 有没有我删不掉的流氓应用, 没有!!!, 终极杀器,深入Linux:
 > 1.在cmd中获取root权限    执行adb root
 
