@@ -6,7 +6,7 @@
    eg: apktool d E:\smali\app-release.apk [-o E:\smali\demo]<br>
    demo.apk 是要反编译的目标apk, -o 表示输出地址 ，如果没有 -o 参数，默认在当前文件夹。<br>
    
-- 破解一个so文件步骤.
+- 破解一个so文件步骤.<br>
 1.apktool d demo.apk -o E:\test<br>
 2.利用ida , urltaedit 等修改so<br>
 3.apktool b e:\test<br>
