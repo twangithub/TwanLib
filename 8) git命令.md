@@ -12,3 +12,8 @@
  6. 使用 git pull origin master 获取远程仓库master分支的最新改动。（如果远程仓库有更新，没有执行此步骤，无法进行下一步）
  7. 使用 git push origin master 提交改动到远程仓库
  8. github 的 Demo 默认使用 gh-pages 分支，Demo 地址是：http://用户名.github.io/仓库名/ 可以使用 git checkout gh-pages 切换到该分支(默认没有这     个分支，需要使用git checkout -b gh-pages创建该分支)。
+
+## Git pull 强制覆盖本地文件
+git fetch --all
+git reset --hard origin/master
+git pull
