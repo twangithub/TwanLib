@@ -16,7 +16,7 @@
 - 强制关闭某个应用 : adb shell am force-stop 包名
     
     
-#### 有没有我删不掉的流氓应用, 没有!!!, 终极杀器,深入Linux:
+#### 有没有删不掉的流氓应用, 终极杀器,深入Linux:
 > 1.在cmd中获取root权限    执行adb root
 
 > 2.进入adb shell   执行adb shell
@@ -63,6 +63,9 @@
 ### recovery
 > recovery装好后,就可以利用adb命令. 在recovery的环境下直接传输文件
 - 通过adb推送本地文件到手机sdcard : adb push 本地文件路径  /sdcard/
+- 如果想替换原有的recovery,则选择install img按钮,选择recovery分区
+- https://official-twrp-app.en.uptodown.com/android/download  该网址下载twrp的app ,找到适合自己的twrp
+- 如自己使用的moto x 2014的下载地址是:https://dl.twrp.me/victara/twrp-3.2.1-0-victara.img
 
  ## 3.端口占用问题
  
