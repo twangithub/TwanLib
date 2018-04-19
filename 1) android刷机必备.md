@@ -16,7 +16,7 @@
 - 强制关闭某个应用 : adb shell am force-stop 包名
     
     
-#### 有没有删不掉的流氓应用, 终极杀器,深入Linux:
+#### 没有删不掉的流氓应用, 终极杀器,深入Linux:
 > 1.在cmd中获取root权限    执行adb root
 
 > 2.进入adb shell   执行adb shell
