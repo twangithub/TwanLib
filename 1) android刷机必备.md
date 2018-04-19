@@ -67,6 +67,19 @@
 - https://official-twrp-app.en.uptodown.com/android/download  该网址下载twrp的app ,找到适合自己的twrp
 - 如自己使用的moto x 2014的下载地址是:https://dl.twrp.me/victara/twrp-3.2.1-0-victara.img
 
+### ROM推荐
+- https://download.mokeedev.com/  魔趣ROM下载中心
+- https://forum.xda-developers.com/ XDA
+> 下面的rom下载后自己测试无法使用,不知道什么原因
+- http://www.resurrectionremix.com/   Resurrection Remix OS
+- http://get.cypheros.co/   AOSCP
+- https://downloads.aospextended.com/   aospextended
+- https://lineageos.org/  LineageOS
+- http://aicp-rom.com/ AICP
+> Root 常用
+- http://opengapps.org/  设备root刷入机型对应的gapps即可
+
+
  ## 3.端口占用问题
  
  > 以adb的5037端口为例:
