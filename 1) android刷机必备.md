@@ -78,7 +78,7 @@
 - http://aicp-rom.com/ AICP
 > Root 常用
 - http://opengapps.org/  设备root刷入机型对应的gapps即可
-
+- http://www.supersu.com/download  下载最新的zip通过recovery刷入即可,此时还看不到app,然后在安装superSU.apk即可
 
  ## 3.端口占用问题
  
