@@ -17,3 +17,7 @@
 - git fetch --all
 - git reset --hard origin/master
 - git pull
+
+- $ git push origin :test              // 刚提交到远程的test将被删除，但是本地还会保存的，不用担心
+- 删除分支：$ git branch -d [name]  -d选项只能删除已经参与了合并的分支，对于未有合并的分支是无法删除的。如果想强制删除一个分支，可以使用-D选项
+- 本地分支push到远程(创建远程分支)：$ git push origin [name]
