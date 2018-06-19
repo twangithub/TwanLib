@@ -32,7 +32,7 @@
 - $ git merge dev ;//然后把开发好的dev分支合并到master
 - ($ git branch -d dev);//最后删除dev分支,当然也可以不删
 
-## 如何使用某一分支
+## 如何使用某一分支(切换分支之前，一定要提交当前分支的修改)
 - git branch -r #查看远程分支
 - git branch -a #查看所有分支
 - git checkout origin/daily/1.4.1  //使用某一分支
