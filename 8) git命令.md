@@ -22,7 +22,7 @@
 - 删除分支：$ git branch -d [name]  -d选项只能删除已经参与了合并的分支，对于未有合并的分支是无法删除的。如果想强制删除一个分支，可以使用-D选项
 - 本地分支push到远程(创建远程分支)：$ git push origin [name]
 
-## rename git branch locally and remotely
+## 重命名本地和远程分支的名字
 - git branch -m old_branch new_branch         # Rename branch locally    
 - git push origin :old_branch                 # Delete the old branch    
 - git push --set-upstream origin new_branch   # Push the new branch, set local branch to track the new remote
