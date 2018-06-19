@@ -26,3 +26,8 @@
 - git branch -m old_branch new_branch         # Rename branch locally    
 - git push origin :old_branch                 # Delete the old branch    
 - git push --set-upstream origin new_branch   # Push the new branch, set local branch to track the new remote
+
+## 将开发完成的分支合并到master
+- $ git checkout master ;// 先切换到主分支
+- $ git merge dev ;//然后把开发好的dev分支合并到master
+- ($ git branch -d dev);//最后删除dev分支,当然也可以不删
