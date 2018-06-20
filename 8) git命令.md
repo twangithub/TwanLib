@@ -30,7 +30,8 @@
 ## 将开发完成的分支合并到master
 - $ git checkout master ;// 先切换到主分支
 - $ git merge dev ;//然后把开发好的dev分支合并到master
-- ($ git branch -d dev);//最后删除dev分支,当然也可以不删
+- ($ git branch -d dev);//删除dev分支,当然也可以不删
+- $ git push origin master (提交到远程库)
 
 ## 如何使用某一分支(切换分支之前，一定要提交当前分支的修改)
 - git branch -r #查看远程分支
