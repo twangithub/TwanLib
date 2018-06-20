@@ -36,3 +36,8 @@
 - git branch -r #查看远程分支
 - git branch -a #查看所有分支
 - git checkout origin/daily/1.4.1  //使用某一分支
+
+## git忽略规则及.gitignore规则不生效的解决办法
+- git rm -r --cached .
+- git add .
+- git commit -m "update .gitignore"
