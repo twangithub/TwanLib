@@ -42,3 +42,7 @@
 - git rm -r --cached .
 - git add .
 - git commit -m "update .gitignore"
+
+## 移除某目录的版本管理
+- git rm  UMLibrary/build -r -f  
+- git commit 
