@@ -1,6 +1,8 @@
 #### git获取分支:
 如何只克隆git仓库中的一个分支？ : git clone -b <branch> <remote_repo>   例如： git clone -b 指定的分支名字 git地址
 
+> 推荐Android studio 版本管理插件
+  .ignore
 
 ## Git提交 
  > 提交步骤:
