@@ -1,5 +1,7 @@
 转载文章： https://www.awaimai.com/patterns/uml
 
+![](https://github.com/twangithub/TwanLib/blob/master/assets/UML%E7%B1%BB%E5%9B%BE2.png)
+
 3.六种类关系
 六种类关系中，组合、聚合、关联这三种类关系的代码结构一样，都是用属性来保存另一个类的引用，所以要通过内容间的关系来区别。
 
@@ -58,3 +60,4 @@ m..n：最少m、最多n个 (m<=n)
 
 4 总结
 这六种类关系中，组合、聚合和关联的代码结构一样，可以从关系的强弱来理解，各类关系从强到弱依次是：继承→实现→组合→聚合→关联→依赖。如下是完整的一张UML关系图。
+![](https://github.com/twangithub/TwanLib/blob/master/assets/whole.png)
