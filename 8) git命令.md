@@ -50,3 +50,7 @@
 ## 移除某目录的版本管理
 - git rm  UMLibrary/build -r -f  
 - git commit 
+
+## 项目地址变更,如何换新的项目地址?
+- 先删除远程仓库地址 git remote rm origin 
+- git remote add origin [项目新地址] 
