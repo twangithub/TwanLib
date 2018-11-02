@@ -4,6 +4,6 @@ bin/kafka-topics.sh --create --zookeeper 192.168.18.201:2181,192.168.18.202:2181
 - tomcat 日志搜索命令:<br>
 cat -n catalina.out | grep '你要搜索的'
 
-- rm删除目录及目录里的东西(-r 就是向下递归，不管有多少级目录，一并删除)
+- rm删除目录及目录里的东西(-r 就是向下递归，不管有多少级目录，一并删除):<br>
 rm -rf 目录名
 
