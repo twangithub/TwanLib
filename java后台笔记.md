@@ -12,17 +12,26 @@ rm -rf 目录名
 2.rm ./*<br>
 
 ### centos7 最小化系统必备软件:
-<br>yum install net-tools vim lrzsz 
+<br>yum install -y net-tools
+<br>yum install -y wget
+<br>yum install -y vim-enhanced
 <br>yum install sysstat #sar工具
 <br>yum install psmisc #pstree工具
 <br>yum install iptraf-ng #流量监控
 <br>yum install -y bash-completion #systemctl命令补全
-<br>
-<br>yum -y install lshw pciutils gdisk system-storage-manager
-<br>yum -y bash-completion zip unzip bzip2 tree tmpwatch pinfo man-pages
-<br>yum -y nano vim-enhanced tmux screen
-<br>yum -y net-tools psmisclsof sysstat
-<br>yum -y yum-plugin-security yum-utils createrepo
-<br>yum -y get wget curl eliks lynx lftp mailx mutt reync 
-<br>yum -y libaio make cmake gcc-c++ gcc zib zlib-devel open openssl-devel pcre pcre-devel
+<br>yum install gcc gcc-c++ -y  #任何编译安装必备
+<br>yum install psmisc -y    #killall杀进程的
+<br>yum install git -y #装github不然无法clone
+<br>yum install telnet
+<br>yum install telnet-server
+
+<br>#替换成阿里的源
+<br>cd /etc/yum.repo.d
+<br>#备份一下官方源
+<br>mv CentOS-Base.repo CentOS-Base.repo.bak
+<br>#将阿里源文件下载下来
+<br>wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo
+<br>#重建源数据缓存
+<br>yum makecache
+
 
