@@ -11,3 +11,18 @@ rm -rf 目录名
 1.先cd到该目录<br>
 2.rm ./*<br>
 
+### centos7 最小化系统必备软件:
+<br>yum install net-tools vim lrzsz 
+<br>yum install sysstat #sar工具
+<br>yum install psmisc #pstree工具
+<br>yum install iptraf-ng #流量监控
+<br>yum install -y bash-completion #systemctl命令补全
+<br>
+<br>yum -y install lshw pciutils gdisk system-storage-manager
+<br>yum -y bash-completion zip unzip bzip2 tree tmpwatch pinfo man-pages
+<br>yum -y nano vim-enhanced tmux screen
+<br>yum -y net-tools psmisclsof sysstat
+<br>yum -y yum-plugin-security yum-utils createrepo
+<br>yum -y get wget curl eliks lynx lftp mailx mutt reync 
+<br>yum -y libaio make cmake gcc-c++ gcc zib zlib-devel open openssl-devel pcre pcre-devel
+
