@@ -15,23 +15,14 @@ rm -rf 目录名
 <br>yum install -y net-tools
 <br>yum install -y wget
 <br>yum install -y vim-enhanced
-<br>yum install sysstat #sar工具
-<br>yum install psmisc #pstree工具,killall杀进程的
-<br>yum install iptraf-ng #流量监控
+<br>yum install -y sysstat #sar工具
+<br>yum install -y psmisc #pstree工具,killall杀进程的
+<br>yum install -y iptraf-ng #流量监控
 <br>yum install -y bash-completion #systemctl命令补全
-<br>yum install gcc gcc-c++ -y  #任何编译安装必备
-<br>yum install git -y #装git
-<br>yum install telnet
-<br>yum install telnet-server
-<br>yum install java-1.8.0-openjdk-devel
-
-<br>#替换成阿里的源
-<br>cd /etc/yum.repo.d
-<br>#备份一下官方源
-<br>mv CentOS-Base.repo CentOS-Base.repo.bak
-<br>#将阿里源文件下载下来
-<br>wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo
-<br>#重建源数据缓存
-<br>yum makecache
+<br>yum install -y gcc gcc-c++   #任何编译安装必备
+<br>yum install -y git  #装git
+<br>yum install -y telnet
+<br>yum install -y telnet-server
+<br>yum install -y java (openjdk)
 
 
