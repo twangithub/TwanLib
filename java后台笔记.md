@@ -16,12 +16,11 @@ rm -rf 目录名
 <br>yum install -y wget
 <br>yum install -y vim-enhanced
 <br>yum install sysstat #sar工具
-<br>yum install psmisc #pstree工具
+<br>yum install psmisc #pstree工具,killall杀进程的
 <br>yum install iptraf-ng #流量监控
 <br>yum install -y bash-completion #systemctl命令补全
 <br>yum install gcc gcc-c++ -y  #任何编译安装必备
-<br>yum install psmisc -y    #killall杀进程的
-<br>yum install git -y #装github不然无法clone
+<br>yum install git -y #装git
 <br>yum install telnet
 <br>yum install telnet-server
 <br>yum install java-1.8.0-openjdk-devel
