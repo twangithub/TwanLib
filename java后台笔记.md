@@ -24,7 +24,7 @@ rm -rf 目录名
 <br>yum install git -y #装github不然无法clone
 <br>yum install telnet
 <br>yum install telnet-server
-<>yum install java -y
+<br>yum install java-1.8.0-openjdk-devel
 
 <br>#替换成阿里的源
 <br>cd /etc/yum.repo.d
