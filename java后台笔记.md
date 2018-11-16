@@ -45,19 +45,20 @@ rm -rf 目录名
 <br>wget
 <br>sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
+5.安装插件
 <br>git clone git://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 <br>source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 <br>git clone git://github.com/joelthelion/autojump.git
 
-5.查看oh my zsh主题
+6.查看oh my zsh主题
 <br>ls ~/.oh-my-zsh/themes
 
-6.修改主题
+7.修改主题
 <br>vim ~/.zshrc (默认的主题是ZSH_THEME="robbyrussell")
 <br>1.ZSH_THEME="ys"
 <br>2.同时修改plugins=(git git-flow grails rvm history-substring-search github gradle svn node npm zsh-syntax-highlighting sublime autojump)
 
-7.使配置立即生效
+8.使配置立即生效
 <br>$ source ~/.zshrc
 
 
