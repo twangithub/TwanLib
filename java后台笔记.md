@@ -26,7 +26,7 @@ rm -rf 目录名
 <br>yum install -y telnet-server
 <br>yum install -y java (openjdk)
 
-- 关闭centos7默认的firewall防火墙
+##### 关闭centos7默认的firewall防火墙
 <br>systemctl stop firewalld.service #停止firewall
 <br>systemctl disable firewalld.service #禁止firewall开机启动
 
@@ -40,14 +40,14 @@ chsh -s /bin/zsh
 (重启或者关闭当前终端)
 
 4.安装on my zsh
-curl
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-wget
-sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+<br>curl
+<br>sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+<br>wget
+<br>sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
-git clone git://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-git clone git://github.com/joelthelion/autojump.git
+<br>git clone git://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
+<br>source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+<br>git clone git://github.com/joelthelion/autojump.git
 
 5.查看oh my zsh主题
 ls ~/.oh-my-zsh/themes
