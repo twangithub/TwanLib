@@ -30,7 +30,7 @@ rm -rf 目录名
 <br>systemctl stop firewalld.service #停止firewall
 <br>systemctl disable firewalld.service #禁止firewall开机启动
 
-- 安装oh-my-zsh
+##### 安装oh-my-zsh
 1.安装zsh包
 yum -y install zsh
 
