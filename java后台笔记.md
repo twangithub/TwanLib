@@ -26,16 +26,16 @@ rm -rf 目录名
 <br>yum install -y telnet-server
 <br>yum install -y java (openjdk)
 
-##### 关闭centos7默认的firewall防火墙
+#### 关闭centos7默认的firewall防火墙
 <br>systemctl stop firewalld.service #停止firewall
 <br>systemctl disable firewalld.service #禁止firewall开机启动
 
-##### 安装oh-my-zsh
+#### 安装oh-my-zsh
 1.安装zsh包
-yum -y install zsh
+<br>yum -y install zsh
 
 2.切换默认shell为zsh
-chsh -s /bin/zsh
+<br>chsh -s /bin/zsh
 
 (重启或者关闭当前终端)
 
@@ -50,15 +50,15 @@ chsh -s /bin/zsh
 <br>git clone git://github.com/joelthelion/autojump.git
 
 5.查看oh my zsh主题
-ls ~/.oh-my-zsh/themes
+<br>ls ~/.oh-my-zsh/themes
 
 6.修改主题
-vim ~/.zshrc (默认的主题是ZSH_THEME="robbyrussell")
-1.ZSH_THEME="ys"
-2.同时修改plugins=(git git-flow grails rvm history-substring-search github gradle svn node npm zsh-syntax-highlighting sublime autojump)
+<br>vim ~/.zshrc (默认的主题是ZSH_THEME="robbyrussell")
+<br>1.ZSH_THEME="ys"
+<br>2.同时修改plugins=(git git-flow grails rvm history-substring-search github gradle svn node npm zsh-syntax-highlighting sublime autojump)
 
 7.使配置立即生效
-$ source ~/.zshrc
+<br>$ source ~/.zshrc
 
 
 
