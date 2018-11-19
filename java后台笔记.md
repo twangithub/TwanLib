@@ -44,6 +44,9 @@ rm -rf 目录名
 <br>#关闭服务
 <br>service iptables stop
 
+#### 设置时间自动同步
+<br>yum install ntp
+<br>ntpdate pool.ntp.org
 
 #### 安装oh-my-zsh
 1.安装zsh包
