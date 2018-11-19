@@ -41,6 +41,9 @@ rm -rf 目录名
 <br>#启动服务
 <br>sudo systemctl start iptables 
 <br>sudo systemctl start ip6tables
+<br>#关闭服务
+<br>service iptables stop
+
 
 #### 安装oh-my-zsh
 1.安装zsh包
