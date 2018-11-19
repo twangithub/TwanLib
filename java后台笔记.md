@@ -30,6 +30,18 @@ rm -rf 目录名
 <br>systemctl stop firewalld.service #停止firewall
 <br>systemctl disable firewalld.service #禁止firewall开机启动
 
+#### 安装iptables
+<br>如果你要改用iptables的话，需要安装iptables服务：
+
+<br>#安装
+<br>sudo yum install iptables-services 
+<br>#开启iptables
+<br>sudo systemctl enable iptables 
+<br>sudo systemctl enable ip6tables 
+<br>#启动服务
+<br>sudo systemctl start iptables 
+<br>sudo systemctl start ip6tables
+
 #### 安装oh-my-zsh
 1.安装zsh包
 <br>yum -y install zsh
