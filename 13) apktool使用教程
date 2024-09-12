@@ -1,0 +1,12 @@
+反编译：
+apktool d xxx.apk
+
+打包：
+apktool b 上一步编译后生成的目录
+生成的apk在  ./dist/xxx.apk
+
+签名：jarsigner是java自带的
+jarsigner -sigalg MD5withRSA -digestalg SHA1 -keystore "D:\workspace\mapapk\sdk_module_autoui_jx/sign/BanmaCommonApkSign.jks" -signedjar xxx_signed.apk will_sign.apk BanmaSecurity2023
+
+xxx_signed.apk 表示签名的apk的名称，自己指定
+will_sign.apk 表示你要签名的apk的名称，就用第二步的apk名称就可以
